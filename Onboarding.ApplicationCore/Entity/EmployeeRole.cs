@@ -1,0 +1,20 @@
+﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+
+namespace Onboarding.ApplicationCore.Entity
+{
+	public class EmployeeRole
+	{
+        public int Id { get; set; }
+
+        [Column(TypeName = ("varchar(512)"))]
+        public string Name { get; set; }
+
+
+        [Column(TypeName = ("varchar(16)"))]
+        public string ABBR { get; set; }
+    }
+}
+

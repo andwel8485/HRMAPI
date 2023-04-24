@@ -1,0 +1,12 @@
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/bin/Debug/net6.0/Recruiting.ApplicationCore.deps.json
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/bin/Debug/net6.0/Recruiting.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/bin/Debug/net6.0/Recruiting.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/obj/Debug/net6.0/Recruiting.ApplicationCore.csproj.AssemblyReference.cache
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/obj/Debug/net6.0/Recruiting.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/obj/Debug/net6.0/Recruiting.ApplicationCore.AssemblyInfoInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/obj/Debug/net6.0/Recruiting.ApplicationCore.AssemblyInfo.cs
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/obj/Debug/net6.0/Recruiting.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/obj/Debug/net6.0/Recruiting.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/obj/Debug/net6.0/refint/Recruiting.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/obj/Debug/net6.0/Recruiting.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Recruiting.ApplicationCore/obj/Debug/net6.0/ref/Recruiting.ApplicationCore.dll

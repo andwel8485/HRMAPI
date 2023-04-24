@@ -1,0 +1,12 @@
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/bin/Debug/net6.0/Onboarding.ApplicationCore.deps.json
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/bin/Debug/net6.0/Onboarding.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/bin/Debug/net6.0/Onboarding.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/obj/Debug/net6.0/Onboarding.ApplicationCore.csproj.AssemblyReference.cache
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/obj/Debug/net6.0/Onboarding.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/obj/Debug/net6.0/Onboarding.ApplicationCore.AssemblyInfoInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/obj/Debug/net6.0/Onboarding.ApplicationCore.AssemblyInfo.cs
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/obj/Debug/net6.0/Onboarding.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/obj/Debug/net6.0/Onboarding.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/obj/Debug/net6.0/refint/Onboarding.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/obj/Debug/net6.0/Onboarding.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Onboarding.ApplicationCore/obj/Debug/net6.0/ref/Onboarding.ApplicationCore.dll

@@ -1,0 +1,12 @@
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/obj/Debug/net6.0/Interview.ApplicationCore.csproj.AssemblyReference.cache
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/obj/Debug/net6.0/Interview.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/obj/Debug/net6.0/Interview.ApplicationCore.AssemblyInfoInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/obj/Debug/net6.0/Interview.ApplicationCore.AssemblyInfo.cs
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/obj/Debug/net6.0/Interview.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/bin/Debug/net6.0/Interview.ApplicationCore.deps.json
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/bin/Debug/net6.0/Interview.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/bin/Debug/net6.0/Interview.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/obj/Debug/net6.0/Interview.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/obj/Debug/net6.0/refint/Interview.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/obj/Debug/net6.0/Interview.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Interview.ApplicationCore/obj/Debug/net6.0/ref/Interview.ApplicationCore.dll

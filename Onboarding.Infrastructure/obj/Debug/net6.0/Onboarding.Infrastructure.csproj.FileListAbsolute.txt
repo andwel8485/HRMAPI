@@ -1,0 +1,17 @@
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.Infrastructure.deps.json
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.Infrastructure.runtimeconfig.json
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.Infrastructure.dll
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.Infrastructure.pdb
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.csproj.AssemblyReference.cache
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.AssemblyInfoInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.AssemblyInfo.cs
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.csproj.CopyComplete
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.dll
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/refint/Onboarding.Infrastructure.dll
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.pdb
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.genruntimeconfig.cache
+/Users/andersonchang/Projects/HRMAPI/Onboarding.Infrastructure/obj/Debug/net6.0/ref/Onboarding.Infrastructure.dll
