@@ -2,7 +2,7 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-ENV InterviewDB="Server=10.84.82.43,1433; Database=InterviewDB; User Id=sa; Password=#Wmafs6119107; TrustServerCertificate=true"
+ENV InterviewDB="Server=host.docker.internal,1433; Database=InterviewDB; User Id=sa; Password=#Wmafs6119107; TrustServerCertificate=true"
 EXPOSE 80
 EXPOSE 443
 

@@ -2,7 +2,7 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-ENV RecruitingDB="Server=10.84.82.43,1433; Database=RecruitingDB; User Id=sa; Password=#Wmafs6119107; TrustServerCertificate=true"
+ENV RecruitingDB="Server=host.docker.internal,1433; Database=RecruitingDB; User Id=sa; Password=#Wmafs6119107; TrustServerCertificate=true"
 EXPOSE 80
 EXPOSE 443
 

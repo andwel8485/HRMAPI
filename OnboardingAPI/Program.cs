@@ -1,5 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Onboarding.Infrastructure.Data;
+using Onboarding.ApplicationCore.Contract.Repository;
+using Onboarding.ApplicationCore.Contract.Service;
+using Onboarding.Infrastructure.Service;
+using Onboarding.Infrastructure.Repository;
+using OnboardingAPI.Utility;
+using Microsoft.AspNetCore.Cors;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,12 +18,39 @@ builder.Logging.AddConsole();
 var connetionString = Environment.GetEnvironmentVariable("OnboardingDB");
 builder.Services.AddDbContext<OnboardingDbContext>(options =>
 {
-    
-    options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardingDB"));
+    if (connetionString !=null && connetionString.Length > 1)
+    {
+        options.UseSqlServer(connetionString);
+    }
+    else
+    {
+        options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardingDB"));
 
-    
+    }
     options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+    });
+});
+
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+
+builder.Services.AddScoped<IEmployeeRoleRepository, EmployeeRoleRepository>();
+builder.Services.AddScoped<IEmployeeRoleService, EmployeeRoleService>();
+
+builder.Services.AddScoped<IEmployeeCategoryRepository, EmployeeCategoryRepository>();
+builder.Services.AddScoped<IEmployeeCategoryService, EmployeeCategoryService>();
+
+builder.Services.AddScoped<IEmployeeStatusRepository, EmployeeStatusRepository>();
+builder.Services.AddScoped<IEmployeeStatusService, EmployeeStatusService>();
+
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -32,7 +67,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors();
+
 app.UseAuthorization();
+
+app.UseGlobalExceptionHandlingMiddleware();
 
 app.MapControllers();
 

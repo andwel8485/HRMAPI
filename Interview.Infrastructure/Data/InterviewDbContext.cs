@@ -4,11 +4,11 @@ using System;
 
 namespace Interview.Infrastructure.Data
 {
-	public class InterviewDbContext:DbContext
-	{
-		public InterviewDbContext(DbContextOptions<InterviewDbContext> options):base(options)
-		{
-		}
+    public class InterviewDbContext : DbContext
+    {
+        public InterviewDbContext(DbContextOptions<InterviewDbContext> options) : base(options)
+        {
+        }
 
         public DbSet<AInterview> AInterviews { get; set; }
         public DbSet<Interviewer> Interviewers { get; set; }

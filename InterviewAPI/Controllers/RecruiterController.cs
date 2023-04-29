@@ -66,6 +66,15 @@ namespace InterviewAPI.Controllers
         {
             return Ok(await _service.DeleteDataAsync(id));
         }
+
+        [HttpGet("GetAllCandidate")]
+        public async Task<IActionResult> GetAllCandidate()
+        {
+            string httpStr = "http://host.docker.internal:50100/api/Candidate";
+            HttpClient client = new HttpClient();
+            var candidateResponse = await client.GetFromJsonAsync<IEnumerable<CandidateResponse>>(httpStr);
+            return Ok(candidateResponse);
+        }
     }
 }
 

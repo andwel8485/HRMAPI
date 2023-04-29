@@ -6,6 +6,7 @@ using RecruitingAPI.Model;
 using Recruiting.ApplicationCore.Entity;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -20,6 +21,7 @@ namespace RecruitingAPI.Controllers
             _service = candidateService;
         }
         // GET: api/values
+        [Authorize(Roles ="Admin")]
         [HttpGet]
         public async Task<IActionResult> Get()
         {

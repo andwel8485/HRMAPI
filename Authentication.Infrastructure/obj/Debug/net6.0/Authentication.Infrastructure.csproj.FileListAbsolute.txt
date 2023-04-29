@@ -1,0 +1,17 @@
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.Infrastructure.deps.json
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.Infrastructure.runtimeconfig.json
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.Infrastructure.dll
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.Infrastructure.pdb
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.csproj.AssemblyReference.cache
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.AssemblyInfoInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.AssemblyInfo.cs
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.csproj.CopyComplete
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.dll
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/refint/Authentication.Infrastructure.dll
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.pdb
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.genruntimeconfig.cache
+/Users/andersonchang/Projects/HRMAPI/Authentication.Infrastructure/obj/Debug/net6.0/ref/Authentication.Infrastructure.dll

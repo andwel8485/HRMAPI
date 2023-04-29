@@ -1,0 +1,12 @@
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/bin/Debug/net6.0/Authentication.ApplicationCore.deps.json
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/bin/Debug/net6.0/Authentication.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/bin/Debug/net6.0/Authentication.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.csproj.AssemblyReference.cache
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.AssemblyInfoInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.AssemblyInfo.cs
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/obj/Debug/net6.0/refint/Authentication.ApplicationCore.dll
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.pdb
+/Users/andersonchang/Projects/HRMAPI/Authentication.ApplicationCore/obj/Debug/net6.0/ref/Authentication.ApplicationCore.dll

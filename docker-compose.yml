@@ -3,13 +3,37 @@ version: '3.4'
 services:
   recruitingapi:
     image: ${DOCKER_REGISTRY-}recruitingapi
+    ports:
+      - "50100:443"
     build:
       context: .
       dockerfile: RecruitingAPI/Dockerfile
 
+    
+
   interviewapi:
     image: ${DOCKER_REGISTRY-}interviewapi
+    ports:
+      - "50101:443"
     build:
       context: .
       dockerfile: InterviewAPI/Dockerfile
+
+
+  onboardingapi:
+    image: ${DOCKER_REGISTRY-}onboardingapi
+    ports:
+      - "50102:443"
+    build:
+      context: .
+      dockerfile: OnboardingAPI/Dockerfile
+
+
+  authenticationapi:
+    image: ${DOCKER_REGISTRY-}authenticationapi
+    ports:
+      - "50103:443"
+    build:
+      context: .
+      dockerfile: AuthenticationAPI/Dockerfile
 

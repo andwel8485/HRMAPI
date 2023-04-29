@@ -7,9 +7,9 @@ namespace Recruiting.ApplicationCore.Contract.Service
 	{
         public Task<IEnumerable<JobCategory>> GetAllDataAsync();
         public Task<JobCategory> GetDataByIdAsync(int id);
-        public Task<int> UpdateDataAsync(JobCategory j);
-        public Task<int> DeleteDataAsync(JobCategory j);
-        public Task<int> InsertDataAsync(JobCategory j);
+        public Task<int> UpdateDataAsync(JobCategory entity);
+        public Task<int> DeleteDataAsync(JobCategory entity);
+        public Task<int> InsertDataAsync(JobCategory entity);
     }
 }
 

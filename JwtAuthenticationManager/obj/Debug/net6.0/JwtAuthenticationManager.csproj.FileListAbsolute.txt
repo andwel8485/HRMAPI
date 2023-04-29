@@ -1,0 +1,12 @@
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/bin/Debug/net6.0/JwtAuthenticationManager.deps.json
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/bin/Debug/net6.0/JwtAuthenticationManager.dll
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/bin/Debug/net6.0/JwtAuthenticationManager.pdb
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/obj/Debug/net6.0/JwtAuthenticationManager.csproj.AssemblyReference.cache
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/obj/Debug/net6.0/JwtAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/obj/Debug/net6.0/JwtAuthenticationManager.AssemblyInfoInputs.cache
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/obj/Debug/net6.0/JwtAuthenticationManager.AssemblyInfo.cs
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/obj/Debug/net6.0/JwtAuthenticationManager.csproj.CoreCompileInputs.cache
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/obj/Debug/net6.0/JwtAuthenticationManager.dll
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/obj/Debug/net6.0/refint/JwtAuthenticationManager.dll
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/obj/Debug/net6.0/JwtAuthenticationManager.pdb
+/Users/andersonchang/Projects/HRMAPI/JwtAuthenticationManager/obj/Debug/net6.0/ref/JwtAuthenticationManager.dll
