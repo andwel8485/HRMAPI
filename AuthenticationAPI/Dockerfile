@@ -2,7 +2,7 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-ENV AuthenticationDB="Server=host.docker.internal,1433; Database=AuthenticationDB; User Id=sa; Password=#Wmafs6119107; TrustServerCertificate=true"
+ENV AuthenticationsDB="Server=host.docker.internal,1433; Database=AuthenticationsDB; User Id=sa; Password=#Wmafs6119107; TrustServerCertificate=true"
 
 EXPOSE 80
 EXPOSE 443

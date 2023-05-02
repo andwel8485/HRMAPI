@@ -1,18 +1,20 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Authentication.ApplicationCore.Entity;
 namespace Authentication.Infrastructure.Data
 {
-	public class AutheticationDbContext:DbContext
+	public class AutheticationDbContext:IdentityDbContext<ApplicationUser>
 	{
 		public AutheticationDbContext(DbContextOptions<AutheticationDbContext> options):base(options)
 		{
 		}
 
-
-		public DbSet<Account> Accounts { get; set; }
-        public DbSet<Role> Roles { get; set; }
-        public DbSet<UserRole> UserRoles { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
     }
 }
 

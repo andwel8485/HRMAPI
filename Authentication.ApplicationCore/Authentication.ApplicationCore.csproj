@@ -11,11 +11,17 @@
     <None Remove="Contract\" />
     <None Remove="Contract\Repository\" />
     <None Remove="Contract\Service\" />
+    <None Remove="Model\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entity\" />
     <Folder Include="Contract\" />
     <Folder Include="Contract\Repository\" />
     <Folder Include="Contract\Service\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
   </ItemGroup>
 </Project>
