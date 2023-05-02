@@ -22,7 +22,7 @@ builder.Services.AddDbContext<InterviewDbContext>(options =>
     }
     else
     {
-        options.UseSqlServer(builder.Configuration.GetConnectionString("InterviewDB"));
+        options.UseSqlServer(builder.Configuration["InterviewDB"]);
 
     }
     options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);

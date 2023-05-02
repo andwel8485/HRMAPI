@@ -22,7 +22,7 @@ builder.Services.AddDbContext<RecruitingDbContext>(options =>
     }
     else
     {
-        options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDB"));
+        options.UseSqlServer(builder.Configuration["RecruitingDB"]);
     }
     options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });

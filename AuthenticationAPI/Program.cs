@@ -22,7 +22,7 @@ builder.Services.AddDbContext<AutheticationDbContext>(options =>
     }
     else
     {
-        options.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationsDB"));
+        options.UseSqlServer(builder.Configuration["AuthenticationsDB"]);
 
     }
     options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);

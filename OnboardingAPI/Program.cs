@@ -24,7 +24,7 @@ builder.Services.AddDbContext<OnboardingDbContext>(options =>
     }
     else
     {
-        options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardingDB"));
+        options.UseSqlServer(builder.Configuration["OnboardingDB"]);
 
     }
     options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
