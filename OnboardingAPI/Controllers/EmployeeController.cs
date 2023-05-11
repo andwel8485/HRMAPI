@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Onboarding.ApplicationCore.Contract.Service;
 using OnboardingAPI.Model;
 using Onboarding.ApplicationCore.Entity;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace OnboardingAPI.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class EmployeeController : ControllerBase
@@ -66,6 +68,7 @@ namespace OnboardingAPI.Controllers
         {
             Employee data = new Employee()
             {
+                Id = employee.Id,
                 FirstName = employee.FirstName,
                 LastName = employee.LastName,
                 SSN = employee.SSN,

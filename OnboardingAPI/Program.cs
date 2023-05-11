@@ -6,6 +6,8 @@ using Onboarding.Infrastructure.Service;
 using Onboarding.Infrastructure.Repository;
 using OnboardingAPI.Utility;
 using Microsoft.AspNetCore.Cors;
+using JwtAuthenticationManager;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -37,6 +39,7 @@ builder.Services.AddCors(options =>
         policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
     });
 });
+builder.Services.AddCustomJwtTokenService();
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
@@ -66,11 +69,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseRouting();
 app.UseCors();
-
+app.UseAuthentication();
 app.UseAuthorization();
-
 app.UseGlobalExceptionHandlingMiddleware();
 
 app.MapControllers();

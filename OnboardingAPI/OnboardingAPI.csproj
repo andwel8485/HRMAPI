@@ -26,6 +26,9 @@
     <ProjectReference Include="..\Onboarding.ApplicationCore\Onboarding.ApplicationCore.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\JwtAuthenticationManager\JwtAuthenticationManager.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Remove="Model\" />

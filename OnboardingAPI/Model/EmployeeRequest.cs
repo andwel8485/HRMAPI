@@ -7,7 +7,8 @@ namespace OnboardingAPI.Model
 {
 	public class EmployeeRequest
 	{
-        
+        public int Id { get; set; }
+
         public string FirstName { get; set; }
         
         public string LastName { get; set; }
