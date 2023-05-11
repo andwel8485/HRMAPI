@@ -10,6 +10,7 @@ using InterviewAPI.Model;
 
 namespace InterviewAPI.Controllers
 {
+    [ApiController]
     [Route("api/[controller]")]
     public class InterviewTypeController:ControllerBase
 	{

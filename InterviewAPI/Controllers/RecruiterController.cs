@@ -12,6 +12,7 @@ using InterviewAPI.Model;
 
 namespace InterviewAPI.Controllers
 {
+    [ApiController]
     [Route("api/[controller]")]
     public class RecruiterController : ControllerBase
     {

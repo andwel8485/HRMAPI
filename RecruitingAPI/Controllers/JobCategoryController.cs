@@ -12,6 +12,7 @@ using Recruiting.ApplicationCore.Entity;
 namespace RecruitingAPI.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class JobCategoryController : ControllerBase
     {
         private readonly IJobCategoryService _service;

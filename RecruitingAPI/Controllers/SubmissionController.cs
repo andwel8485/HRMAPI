@@ -13,6 +13,7 @@ using System.ComponentModel.DataAnnotations;
 namespace RecruitingAPI.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class SubmissionController:ControllerBase
     {
         private readonly ISubmissionService _service;

@@ -15,6 +15,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace RecruitingAPI.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class JobRequirementController : ControllerBase
     {
         private readonly IJobRequirementService _service;

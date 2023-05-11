@@ -16,6 +16,7 @@ using JwtAuthenticationManager;
 namespace AuthenticationAPI.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class AccountController : ControllerBase
     {
         private readonly IAuthenticationService _authservice;
@@ -39,6 +40,10 @@ namespace AuthenticationAPI.Controllers
                     Password = loginModel.Password
                 };
                 var response = _jwtTokenHandler.GenerateToken(authenticaionRequest, "admin");
+                if (response == null)
+                {
+                    return Unauthorized();
+                }
                 return Ok(response);
             };
             return Unauthorized();
@@ -49,7 +54,12 @@ namespace AuthenticationAPI.Controllers
         public async Task<IActionResult> SignUp(SignUpModel signUpModel)
         {
             var result = await _authservice.SignUpAsync(signUpModel);
+            if (result.Succeeded)
+            {
+                return Ok(result);
+            }
             return Ok(result);
+
         }
     }
 }

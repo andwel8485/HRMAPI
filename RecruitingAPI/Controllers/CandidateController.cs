@@ -13,6 +13,8 @@ using Microsoft.AspNetCore.Authorization;
 namespace RecruitingAPI.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
+    [Authorize]
     public class CandidateController : ControllerBase
     {
         private readonly ICandidateService _service;
@@ -21,7 +23,6 @@ namespace RecruitingAPI.Controllers
             _service = candidateService;
         }
         // GET: api/values
-        [Authorize(Roles ="Admin")]
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -56,14 +57,15 @@ namespace RecruitingAPI.Controllers
         }
         // PUT api/values/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(CandidateRequest candidate)
+        public async Task<IActionResult> Put(CandidateRequest candidateRequest)
         {
             Candidate data = new Candidate()
             {
-                FirstName = candidate.FirstName,
-                LastName = candidate.LastName,
-                Email = candidate.Email,
-                ResumeURL = candidate.ResumeURL
+                Id = candidateRequest.Id,
+                FirstName = candidateRequest.FirstName,
+                LastName = candidateRequest.LastName,
+                Email = candidateRequest.Email,
+                ResumeURL = candidateRequest.ResumeURL
             };
             return Ok(await _service.UpdateDataAsync(data));
         }
